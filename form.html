@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+         <h1>Welcome to my Form</h1>
+    </header>
+
+
+    <h1>This is form</h1>
+    <form action="">
+        <p>Name : <input type="text" name="name" id="" required placeholder="Enter your name"></p>
+        <p>Email : <input type="text" name="email" id="" required placeholder="Enter your email"></p>
+        <fieldset>
+            <legend>Select Your City</legend>
+            <p><label for="jashore"><input type="radio" name="city" id="jashore">Jashore</label></p>
+            <p>
+                <label for="khulna"><input type="radio" name="city" id="khulna">Khulna</label>
+            </p>
+            <p>
+                <label for="dhaka"><input type="radio" name="city" id="dhaka">Dhaka</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select Your Position</legend>
+            <p><label for="school"><input type="checkbox" name="position" id="school">school</label></p>
+            <p><label for="collage"><input type="checkbox" name="position" id="collage">collage</label></p>
+            <p><label for="univercity"><input type="checkbox" name="position" id="univercity">Univercity</label></p>
+        </fieldset>
+        <br>
+        <p>comment here : </p>
+        <textarea name="comment" id="" cols="30" rows="10">write here</textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
